@@ -87,13 +87,13 @@ export default function Home() {
           />
           <ShowcaseSlide
             title={<span>Gyors információ</span>}
-            description="A kezdőlapodon könnyen leolvashatod a jelenlegi órád időtartamát, helyét, és a következő órádat is."
+            description="A kezdőlapodon könnyen leolvashatod a jelenlegi órád hátralévő időtartamát, helyét, és a következő órádat is."
             asset="livecard"
             arrangement="left"
           />
           <ShowcaseSlide
             title={<span>Statisztikus álom</span>}
-            description="Sok féle hasznos statisztikát láthasz nálunk, például a jegyeid száma, sőt akár havi, és heti átlagokat is."
+            description="Sokféle hasznos statisztikát láthasz nálunk, például az egyes jegyeid számát. Prémiummal választhatsz háromhavi, havi, kétheti és heti grafikonokból is."
             asset="gradesgraph"
             arrangement="right"
           />
