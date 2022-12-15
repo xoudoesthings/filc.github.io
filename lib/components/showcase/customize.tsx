@@ -2,7 +2,7 @@ import { useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useRive } from "rive-react";
 
-export default function Backpack() {
+export default function Customize() {
   const ref = useRef(null);
   const inView = useInView(ref);
 

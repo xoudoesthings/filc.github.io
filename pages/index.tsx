@@ -5,6 +5,7 @@ import { motion as m } from "framer-motion";
 import ShowcaseSlide from "lib/components/showcase/showcase";
 import Backpack from "lib/components/showcase/backpack";
 import Footer from "lib/components/footer";
+import Customize from "lib/components/showcase/customize";
 
 export default function Home() {
   return (
@@ -104,7 +105,7 @@ export default function Home() {
               </span>
             }
             description="A te filced, a te színeid. Válassz saját színt, sőt, akár követheted a telefonod színeit is. Még bővebb személyre szabás elérhető a Kupak csomaggal."
-            asset="customtheme"
+            customAsset={<Customize />}
             arrangement="left"
           />
           <ShowcaseSlide
