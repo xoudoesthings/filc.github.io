@@ -20,7 +20,7 @@ export default function Customize() {
   }, [inView, rive]);
 
   return (
-    <div ref={ref} className="h-80 w-80">
+    <div ref={ref} className="h-96 w-96">
       <RiveComponent />
     </div>
   );
